@@ -1,0 +1,218 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="products">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="product" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="category-id" type="xs:integer"/>
+							<xs:element name="category-name">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="title">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="title-ru">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="title-lv">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="title-ee">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="title-fi">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:anyAttribute/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="long-description">
+								<xs:complexType mixed="true">
+									<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:anyAttribute/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="long-description-ru">
+								<xs:complexType mixed="true">
+									<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:anyAttribute/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="long-description-lv">
+								<xs:complexType mixed="true">
+									<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:anyAttribute/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="long-description-ee">
+								<xs:complexType mixed="true">
+									<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:anyAttribute/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="long-description-fi">
+								<xs:complexType mixed="true">
+									<xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+									<xs:anyAttribute/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="video-youtube" type="xs:anyURI"/>
+							<xs:element name="properties">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="property" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="id">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:string">
+																	<xs:anyAttribute/>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="values">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="value" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:simpleContent>
+																			<xs:extension base="xs:string">
+																				<xs:anyAttribute/>
+																			</xs:extension>
+																		</xs:simpleContent>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="colours">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="colour" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="colour-title" type="xs:string"/>
+													<xs:element name="images">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="image" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="url" type="xs:anyURI" maxOccurs="unbounded"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="modifications">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="modification" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="modification-title" type="xs:string"/>
+																			<xs:element name="weight" type="xs:decimal"/>
+																			<xs:element name="length" type="xs:decimal"/>
+																			<xs:element name="height" type="xs:decimal"/>
+																			<xs:element name="width" type="xs:decimal"/>
+																			<xs:element name="attributes">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="barcodes">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="barcode" maxOccurs="unbounded">
+																										<xs:complexType>
+																											<xs:simpleContent>
+																												<xs:extension base="xs:string">
+																													<xs:anyAttribute/>
+																												</xs:extension>
+																											</xs:simpleContent>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="supplier-code">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:anyAttribute/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="manufacturer-code">
+																							<xs:complexType>
+																								<xs:simpleContent>
+																									<xs:extension base="xs:string">
+																										<xs:anyAttribute/>
+																									</xs:extension>
+																								</xs:simpleContent>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
