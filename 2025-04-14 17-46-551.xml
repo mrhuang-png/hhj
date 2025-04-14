@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/hhj284/hhj/refs/heads/main/products.xsd">
+    <product>
+        <category-id>21872</category-id>
+        <category-name>
+            <![CDATA[Funny gifts [21872]]]>
+        </category-name>
+        <title>
+            <![CDATA[15 vnt (mėlyna) Daugiafunkcinis daržovių pjaustytuvas Daržovių pjaustyklė - Daržovių pjaustyklė Rankinė daržovių pjaustyklė - Kubelių daržovių pjaustyklė Pomidorų, bulvių, vaisių, morkų, agurkų, svogūnų pjaustyklė]]>
+        </title>
+        <title-ru>
+            <![CDATA[]]>
+        </title-ru>
+        <title-lv>
+            <![CDATA[15Gb (zils) Daudzfunkcionāls dārzeņu griezējs Dārzeņu griezējs - Dārzeņu griezējs Manuālais dārzeņu griezējs - Kubiņu dārzeņu griezējs Tomātu, kartupeļu, augļu, burkānu, gurķu, sīpolu griezējs]]>
+        </title-lv>
+        <title-ee>
+            <![CDATA[15 tk (sinine) Multifunktsionaalne köögiviljalõikur Köögiviljalõikur – Köögiviljalõikur – Käsitsi köögiviljalõikur – Köögiviljade kuubikulõikur Tomati-, kartuli-, puuvilja-, porgandi-, kurgi-, sibulalõikur]]>
+        </title-ee>
+        <title-fi>
+            <![CDATA[15 KPL (sininen) Monitoiminen vihannesleikkuri Vihannesleikkuri - Vihannesleikkuri Manuaalinen vihannesleikkuri - Kuutiovihannesleikkuri Tomaatti-, peruna-, hedelmä-, porkkana-, kurkku-, sipulileikkuri]]>
+        </title-fi>
+            <video-youtube>
+            <![CDATA[]]>
+        </video-youtube>
+        <properties>
+            <property>
+                <id>
+                    <![CDATA[]]>
+                </id>
+                <values>
+                    <value>
+                        <![CDATA[]]>
+                    </value>
+                </values>
+            </property>
+        </properties>
+        <colours>
+            <colour>
+                <colour-title></colour-title>
+                <images>
+                    <image>
+                        <url>
+                            <![CDATA[https://s2.loli.net/2023/05/02/d24fOJAu6gQUsKZ.jpg]]>
+                        </url>
+                    </image>
+                    <image>
+                        <url>
+                            <![CDATA[https://m.media-amazon.com/images/I/71HeuIObEYL._AC_SL1500_.jpg]]>
+                        </url>
+                    </image>
+                    <image>
+                        <url>
+                            <![CDATA[https://m.media-amazon.com/images/I/71IzgHu0DiL._AC_SL1500_.jpg]]>
+                        </url>
+                    </image>
+                    <image>
+                        <url>
+                            <![CDATA[https://m.media-amazon.com/images/I/71oVoegiw9L._AC_SL1500_.jpg]]>
+                        </url>
+                    </image>
+                </images>
+                <modifications>
+                    <modification>
+                        <modification-title></modification-title>
+                        <weight>0.2</weight>
+                        <length>0.3</length>
+                        <height>0.05</height>
+                        <width>0.15</width>
+                        <attributes>
+                            <barcodes>
+                                <barcode>
+                                    <![CDATA[6210238298474]]>
+                                </barcode>
+                            </barcodes>
+                            <supplier-code>
+                                <![CDATA[HHQ-WC001]]>
+                            </supplier-code>
+                            <manufacturer-code>
+                                <![CDATA[6210238298474]]>
+                            </manufacturer-code>
+                        </attributes>
+                    </modification>
+                </modifications>
+            </colour>
+        </colours>
+    </product>
+</products>
