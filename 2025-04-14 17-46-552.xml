@@ -5,7 +5,7 @@
  <!-- [*] Your category name (better with full path, eg. Books/Novels/Jo Nesbo/) MANDATORY -->
  <category-name><![CDATA[Novels]]></category-name>
  <!-- [#] Product title LT language -->
- <title><![CDATA[Product title LT language]]></title>
+ <title><![CDATA[Product title in LT language]]></title>
  <!-- [#] Product title in RU language -->
  <title-ru><![CDATA[Product title in RU language]]></title-ru>
  <!-- [#] Product title in LV language -->
