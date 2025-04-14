@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <products
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/hhj284/hhj/refs/heads/main/products.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <product>
         <category-id>21872</category-id>
         <category-name>
